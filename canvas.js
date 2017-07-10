@@ -19,6 +19,9 @@ var canvas = new fabric.Canvas('myCanvas',{
     isDrawingMode: true
   });
 
+var dataURL = canvas.toDataURL();
+console.log(dataURL);
+
   // fabric.Object.prototype.transparentCorners = false;
   //
   //   // var drawingModeEl = $('drawing-mode'),
